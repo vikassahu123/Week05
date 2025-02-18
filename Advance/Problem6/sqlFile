@@ -1,0 +1,15 @@
+CREATE DATABASE company;
+USE company;
+
+CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(50),
+    salary DOUBLE
+);
+
+INSERT INTO employees VALUES
+(1, 'John Doe', 'IT', 75000),
+(2, 'Jane Smith', 'HR', 65000),
+(3, 'Alice Brown', 'Finance', 72000),
+(4, 'Bob Johnson', 'IT', 80000);
